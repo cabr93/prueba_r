@@ -13,7 +13,43 @@
 		0765594E1E00D39300AD2EC3 /* rappi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0765594C1E00D39300AD2EC3 /* rappi.xcdatamodeld */; };
 		076559501E00D39300AD2EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0765594F1E00D39300AD2EC3 /* Assets.xcassets */; };
 		076559531E00D39300AD2EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076559511E00D39300AD2EC3 /* LaunchScreen.storyboard */; };
+		0765595B1E00D3C500AD2EC3 /* StoryboardiPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0765595A1E00D3C500AD2EC3 /* StoryboardiPad.storyboard */; };
+		07E7C98E1E00DA09009A07D6 /* TVCCategoriaiPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7C98D1E00DA09009A07D6 /* TVCCategoriaiPhone.swift */; };
+		07E7C9901E00DFDD009A07D6 /* TVCAppiPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7C98F1E00DFDD009A07D6 /* TVCAppiPhone.swift */; };
+		07E7C9921E00EE3F009A07D6 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7C9911E00EE3F009A07D6 /* CustomCell.swift */; };
+		07E7C9961E00FAA0009A07D6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7C9951E00FAA0009A07D6 /* CollectionViewCell.swift */; };
+		07E7C9981E00FBF3009A07D6 /* CVCAppiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7C9971E00FBF3009A07D6 /* CVCAppiPad.swift */; };
+		07E7C99A1E023778009A07D6 /* VCDetalleiPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7C9991E023778009A07D6 /* VCDetalleiPhone.swift */; };
+		07E7C99D1E02E343009A07D6 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E7C99B1E02E342009A07D6 /* Realm.framework */; };
+		07E7C99E1E02E343009A07D6 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E7C99C1E02E343009A07D6 /* RealmSwift.framework */; };
+		07E7C99F1E02E368009A07D6 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E7C99B1E02E342009A07D6 /* Realm.framework */; };
+		07E7C9A01E02E368009A07D6 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07E7C99B1E02E342009A07D6 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07E7C9A11E02E368009A07D6 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E7C99C1E02E343009A07D6 /* RealmSwift.framework */; };
+		07E7C9A21E02E368009A07D6 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07E7C99C1E02E343009A07D6 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07E7C9A61E02EC99009A07D6 /* AppRealmObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7C9A51E02EC99009A07D6 /* AppRealmObjects.swift */; };
+		07E7C9A81E038283009A07D6 /* TVCCategoriaiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7C9A71E038282009A07D6 /* TVCCategoriaiPad.swift */; };
+		07E7C9AA1E038C7D009A07D6 /* VCDetalleiPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7C9A91E038C7D009A07D6 /* VCDetalleiPad.swift */; };
+		07E7C9B71E04BAFA009A07D6 /* pr6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07E7C9B51E04BAFA009A07D6 /* pr6.jpg */; };
+		07E7C9BF1E057A2E009A07D6 /* bigote2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07E7C9BD1E057A2E009A07D6 /* bigote2.png */; };
+		07E7C9C01E057A2E009A07D6 /* rappi2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07E7C9BE1E057A2E009A07D6 /* rappi2.png */; };
+		07E7C9C41E0588D6009A07D6 /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 07E7C9C31E0588D6009A07D6 /* fondo.png */; };
+		07E7C9C81E058D74009A07D6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E7C9C71E058D74009A07D6 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07E7C9A31E02E368009A07D6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				07E7C9A21E02E368009A07D6 /* RealmSwift.framework in Embed Frameworks */,
+				07E7C9A01E02E368009A07D6 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		076559421E00D39300AD2EC3 /* rappi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rappi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +60,23 @@
 		0765594F1E00D39300AD2EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		076559521E00D39300AD2EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		076559541E00D39300AD2EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0765595A1E00D3C500AD2EC3 /* StoryboardiPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = StoryboardiPad.storyboard; path = ../StoryboardiPad.storyboard; sourceTree = "<group>"; };
+		07E7C98D1E00DA09009A07D6 /* TVCCategoriaiPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCCategoriaiPhone.swift; sourceTree = "<group>"; };
+		07E7C98F1E00DFDD009A07D6 /* TVCAppiPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCAppiPhone.swift; sourceTree = "<group>"; };
+		07E7C9911E00EE3F009A07D6 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		07E7C9951E00FAA0009A07D6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		07E7C9971E00FBF3009A07D6 /* CVCAppiPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCAppiPad.swift; sourceTree = "<group>"; };
+		07E7C9991E023778009A07D6 /* VCDetalleiPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCDetalleiPhone.swift; sourceTree = "<group>"; };
+		07E7C99B1E02E342009A07D6 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		07E7C99C1E02E343009A07D6 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		07E7C9A51E02EC99009A07D6 /* AppRealmObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRealmObjects.swift; sourceTree = "<group>"; };
+		07E7C9A71E038282009A07D6 /* TVCCategoriaiPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCCategoriaiPad.swift; sourceTree = "<group>"; };
+		07E7C9A91E038C7D009A07D6 /* VCDetalleiPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCDetalleiPad.swift; sourceTree = "<group>"; };
+		07E7C9B51E04BAFA009A07D6 /* pr6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pr6.jpg; sourceTree = "<group>"; };
+		07E7C9BD1E057A2E009A07D6 /* bigote2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigote2.png; sourceTree = "<group>"; };
+		07E7C9BE1E057A2E009A07D6 /* rappi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rappi2.png; sourceTree = "<group>"; };
+		07E7C9C31E0588D6009A07D6 /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
+		07E7C9C71E058D74009A07D6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +84,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E7C99F1E02E368009A07D6 /* Realm.framework in Frameworks */,
+				07E7C99E1E02E343009A07D6 /* RealmSwift.framework in Frameworks */,
+				07E7C9A11E02E368009A07D6 /* RealmSwift.framework in Frameworks */,
+				07E7C99D1E02E343009A07D6 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +99,8 @@
 			children = (
 				076559441E00D39300AD2EC3 /* rappi */,
 				076559431E00D39300AD2EC3 /* Products */,
+				07E7C99B1E02E342009A07D6 /* Realm.framework */,
+				07E7C99C1E02E343009A07D6 /* RealmSwift.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +115,27 @@
 		076559441E00D39300AD2EC3 /* rappi */ = {
 			isa = PBXGroup;
 			children = (
+				07E7C9C31E0588D6009A07D6 /* fondo.png */,
+				07E7C9BD1E057A2E009A07D6 /* bigote2.png */,
+				07E7C9BE1E057A2E009A07D6 /* rappi2.png */,
+				07E7C9B51E04BAFA009A07D6 /* pr6.jpg */,
 				076559451E00D39300AD2EC3 /* AppDelegate.swift */,
 				076559471E00D39300AD2EC3 /* ViewController.swift */,
+				07E7C9C71E058D74009A07D6 /* Launch Screen.storyboard */,
+				0765595A1E00D3C500AD2EC3 /* StoryboardiPad.storyboard */,
 				076559491E00D39300AD2EC3 /* Main.storyboard */,
 				0765594F1E00D39300AD2EC3 /* Assets.xcassets */,
 				076559511E00D39300AD2EC3 /* LaunchScreen.storyboard */,
+				07E7C9911E00EE3F009A07D6 /* CustomCell.swift */,
+				07E7C9951E00FAA0009A07D6 /* CollectionViewCell.swift */,
 				076559541E00D39300AD2EC3 /* Info.plist */,
+				07E7C9A71E038282009A07D6 /* TVCCategoriaiPad.swift */,
+				07E7C98D1E00DA09009A07D6 /* TVCCategoriaiPhone.swift */,
+				07E7C9A91E038C7D009A07D6 /* VCDetalleiPad.swift */,
+				07E7C9991E023778009A07D6 /* VCDetalleiPhone.swift */,
+				07E7C98F1E00DFDD009A07D6 /* TVCAppiPhone.swift */,
+				07E7C9971E00FBF3009A07D6 /* CVCAppiPad.swift */,
+				07E7C9A51E02EC99009A07D6 /* AppRealmObjects.swift */,
 				0765594C1E00D39300AD2EC3 /* rappi.xcdatamodeld */,
 			);
 			path = rappi;
@@ -77,6 +151,8 @@
 				0765593E1E00D39200AD2EC3 /* Sources */,
 				0765593F1E00D39200AD2EC3 /* Frameworks */,
 				076559401E00D39200AD2EC3 /* Resources */,
+				07E7C9A31E02E368009A07D6 /* Embed Frameworks */,
+				07E7C9A41E02E387009A07D6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,21 +202,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E7C9B71E04BAFA009A07D6 /* pr6.jpg in Resources */,
+				07E7C9C41E0588D6009A07D6 /* fondo.png in Resources */,
+				07E7C9C01E057A2E009A07D6 /* rappi2.png in Resources */,
+				07E7C9C81E058D74009A07D6 /* Launch Screen.storyboard in Resources */,
 				076559531E00D39300AD2EC3 /* LaunchScreen.storyboard in Resources */,
+				07E7C9BF1E057A2E009A07D6 /* bigote2.png in Resources */,
 				076559501E00D39300AD2EC3 /* Assets.xcassets in Resources */,
 				0765594B1E00D39300AD2EC3 /* Main.storyboard in Resources */,
+				0765595B1E00D3C500AD2EC3 /* StoryboardiPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07E7C9A41E02E387009A07D6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0765593E1E00D39200AD2EC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E7C9AA1E038C7D009A07D6 /* VCDetalleiPad.swift in Sources */,
 				076559481E00D39300AD2EC3 /* ViewController.swift in Sources */,
+				07E7C9901E00DFDD009A07D6 /* TVCAppiPhone.swift in Sources */,
+				07E7C9A61E02EC99009A07D6 /* AppRealmObjects.swift in Sources */,
+				07E7C99A1E023778009A07D6 /* VCDetalleiPhone.swift in Sources */,
 				0765594E1E00D39300AD2EC3 /* rappi.xcdatamodeld in Sources */,
+				07E7C9961E00FAA0009A07D6 /* CollectionViewCell.swift in Sources */,
+				07E7C98E1E00DA09009A07D6 /* TVCCategoriaiPhone.swift in Sources */,
+				07E7C9A81E038283009A07D6 /* TVCCategoriaiPad.swift in Sources */,
+				07E7C9921E00EE3F009A07D6 /* CustomCell.swift in Sources */,
+				07E7C9981E00FBF3009A07D6 /* CVCAppiPad.swift in Sources */,
 				076559461E00D39300AD2EC3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +371,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = rappi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.cabr93.rappi;
@@ -276,6 +387,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = rappi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.cabr93.rappi;
@@ -303,6 +418,7 @@
 				076559591E00D39300AD2EC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
